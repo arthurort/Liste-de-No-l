@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Wish list</title>
+    <link rel="stylesheet" href="css/bootstrap.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="css/master.css" media="screen" title="no title" charset="utf-8">
+</head>
+
+<body>
+
+    <div id="wrapper">
+        <div class="heading">
+            <h1>Wish list</h1>
+        </div>
+        <div class="container">
+            <div id="wishlist">
+                <div class="row item">
+                    <div class="col-xs-3 responsive-img"><img src="http://placehold.it/200x200" alt="" /></div>
+                    <div class="col-xs-7 item-desc">
+                        <h2>Quae dum</h2>
+                        <p>
+                            Nunc vero inanes flatus quorundam vile esse quicquid extra urbis pomerium nascitur aestimant praeter orbos et caelibes, nec credi potest qua obsequiorum diversitate coluntur homines sine liberis Romae.
+                        </p>
+                        <span class="item-price">13</span>
+                        <button type="button" class="btn btn-info" name="edit-btn">Edit</button>
+                        <button type="button" class="btn btn-danger" name="remove-btn">Remove</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Add something to the wishlist -->
+            <div id="new-wish">
+                <div class="row item">
+                    <div class="col-xs-3 responsive-img"><img src="http://placehold.it/200x200" alt="" /></div>
+                    <div class="col-xs-7 item-desc">
+                        <label for="name">What is it ?</label>
+                        <input type="text" name="name" class="form-control">
+                        <label for="description">Description </label>
+                        <textarea name="description" class="form-control" rows="5"></textarea>
+                        <label for="link">Link</label>
+                        <input type="text" name="link" class="form-control">
+                        <label for="price">Price </label>
+                        <input type="number" name="price" class="form-control">
+                    </div>
+                    <button type="button" class="btn-add-item btn btn-success" name="button">Add</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js" charset="utf-8"></script>
+    <script src="js/scripts.js" charset="utf-8"></script>
+</body>
+
+</html>
