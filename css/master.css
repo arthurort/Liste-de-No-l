@@ -15,7 +15,7 @@ html, body {
     margin-bottom: 30px
 }
 .item img {
-    width: 100%;
+    /*width: 100%;*/
     height: auto;
 }
 .item-desc {

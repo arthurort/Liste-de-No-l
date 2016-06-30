@@ -17,15 +17,15 @@
         <div class="container">
             <div id="wishlist">
                 <div class="row item">
-                    <div class="col-xs-3 responsive-img"><img src="http://placehold.it/200x200" alt="" /></div>
+                    <img class="col-xs-3 responsive-img" src="http://placehold.it/200x200" alt="" />
                     <div class="col-xs-7 item-desc">
                         <h2>Quae dum</h2>
                         <p>
                             Nunc vero inanes flatus quorundam vile esse quicquid extra urbis pomerium nascitur aestimant praeter orbos et caelibes, nec credi potest qua obsequiorum diversitate coluntur homines sine liberis Romae.
                         </p>
                         <span class="item-price">13</span>
-                        <button type="button" class="btn btn-info" name="edit-btn">Edit</button>
-                        <button type="button" class="btn btn-danger" name="remove-btn">Remove</button>
+                        <button type="button" class="edit-btn btn btn-info" name="edit-btn">Edit</button>
+                        <button type="button" class="remove-btn btn btn-danger" name="remove-btn">Remove</button>
                     </div>
                 </div>
             </div>
@@ -33,19 +33,18 @@
             <!-- Add something to the wishlist -->
             <div id="new-wish">
                 <div class="row item">
-                    <div class="col-xs-3 responsive-img"><img src="http://placehold.it/200x200" alt="" /></div>
+                    <img class="col-xs-3 responsive-img" src="http://placehold.it/200x200" alt="" />
                     <div class="col-xs-7 item-desc">
                         <label for="name">What is it ?</label>
-                        <input type="text" name="name" class="form-control">
+                        <input type="text" id="wish-name" name="name" class="form-control">
                         <label for="description">Description </label>
-                        <textarea name="description" class="form-control" rows="5"></textarea>
+                        <textarea name="description" id="wish-description" class="form-control" rows="5"></textarea>
                         <label for="link">Link</label>
-                        <input type="text" name="link" class="form-control">
+                        <input type="text" name="link" id="wish-link" class="form-control">
                         <label for="price">Price </label>
-                        <input type="number" name="price" class="form-control">
+                        <input type="number" id="wish-price" name="price" class="form-control">
                     </div>
-                    <button type="button" class="btn-add-item btn btn-success" name="button">Add</button>
-
+                    <button type="button" class="btn-add-item btn btn-success" id="add-btn" name="button">Add</button>
                 </div>
             </div>
         </div>
