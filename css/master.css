@@ -1,6 +1,10 @@
 html, body {
     background-color: #f0f0f0;
 }
+
+ul#wishlist {
+    padding: 0;
+}
 .heading {
     text-align: center;
     width: 300px;
